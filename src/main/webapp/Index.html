@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">  
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>  
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta charset="ISO-8859-1">
+<title>Vasthranjali</title>
+
+<script id="">
+function myFunction() {
+	var x = document.getElementById("password");
+				if (x.type === "password") {
+					x.type = "text";
+							} else {
+								x.type = "password";
+							}
+						}
+	</script>
+
+</head>
+<body style= "background-image:url('images/bg8.jpg');background-size:80%">
+
+
+
+<div class ="main">
+<form  class="box" action= "login" method = "get" onsubmit=" myFunction()"  >
+<h1>Vasthranjali</h1>
+<h2>LOGIN PAGE</h2>
+<br/>
+<br/>
+Email id: <input type = "email" name = "uname" id = "uname" placeholder="enter email id">
+<br/>
+<br/>
+Password: <input type = "password" name = "password" id = "password" placeholder="enter password">
+
+<br/>
+<br/>
+
+<input type = "submit" value = "Login">
+
+
+					
+
+
+
+</form>
+</div>
+</body>
+</html>
